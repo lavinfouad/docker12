@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  web:
+    image: lavin83/docker12:latest
+    build: .
+    ports:
+      - "8080:80"
